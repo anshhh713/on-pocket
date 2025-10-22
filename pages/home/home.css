@@ -2,15 +2,84 @@
 #home{
     height: 100%;
     margin: 0px 0px 0 0px;
-    padding: 50px  20px  0;
-    font-family: Inter;
+    padding: 120px  20px  0 120px;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
 }
 #home >h1{
-    font-size: 32px;
+    margin: 32px 0 0 0;
+    color: #07C5FA #20D898;
+    font-size: 40px;
     font-weight:bolder ;
 }
 #home >p{
-    width: 517px;
+    margin: 32px 0 0 0;
+    width: 400px;
     font-size: 20px;
+    font-weight: 0;
     /* font-weight: bold; */
+}
+#home button{
+    margin: 60px 0 0 0;
+    border-radius: 10px;
+    width: 160px;
+    padding: 10px;
+    background: #07C5FA;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 16px;
+    font-weight: 500;
+    color: aliceblue;
+}
+#home svg{
+    height: 30px;
+    width: 30px;
+    color: aliceblue;
+}
+#home h4 {
+    margin: 50px 0 0 0;
+    display: flex;
+    font-style: italic;
+}
+#home h4 p:first-child{
+    color: #07C5FA;
+}
+#home h4 p:nth-child(2){
+    color: #20D898;
+}
+
+#home #ellip{
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    top: 70px;
+    right: 0px;
+
+}
+#home #ellip-g{
+    
+    height: 150px; 
+    width: 150px;
+    position: fixed;
+    top: 160px;
+    right: 80px;
+}
+#home #ellip-g-b{
+    
+    height: 400px; 
+    width: 400px;
+    position: fixed;
+    top: 200px;
+    right: 180px;
+}
+#home img{
+    z-index: 10;
+    position: fixed;
+    right: 170px;
+    top: 190px;
+    border-radius: 50rem;
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
 }
