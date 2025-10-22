@@ -1,0 +1,57 @@
+#navbar{
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px 0;
+    align-items: center;
+    background: linear-gradient(90deg, rgb(0, 23, 30),#363636);
+}
+#navbar>.wrapper{
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 10px;
+}
+#navbar>.wrapper>h3{
+    font-size: 20px;
+    background: linear-gradient(90deg , #07C5FA,#20D898 );
+  -webkit-background-clip: text; /* Safari/Chrome */
+  -webkit-text-fill-color: transparent; /* hide original text */
+  
+  /* For non-webkit browsers (experimental) */
+  background-clip: text;
+  color: transparent;
+}
+#navbar>.wrapper>img{
+    /* margin:  73px 0 0; */
+    /* padding: 10px 0 0; */
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+    object-position: center;
+}
+#navbar>ul{
+    display: flex;
+    
+    list-style: none;
+    height: 300px;
+    padding: 0 10px 0;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+#navbar>ul>li{
+    display: flex;
+    align-items: center;
+    /* text-align: center; */
+    font-family: inter;
+    font-size: 24px;
+    font-weight: 600;
+    gap: 2px;
+    color: #fff;
+}
+#navbar>ul>li>svg{
+    color: #ffffff;
+    height: 26px;
+    width: 26px;
+}
